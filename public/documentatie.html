@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>API Endpoints</h1>
+
+    <h2>kleding_items</h2>
+        <ul>
+            <li><strong>GET /kleding_items</strong>: Haalt alle kleding items op met een limit en offset. deze is momenteel op 10 ingestelt. Je ziet dus de eerste 10 kleding items.</li>
+            <li><strong>GET /kleding_items/zoeken</strong>: Zoekt kleding items op titel of content (gebruik query parameter <strong>searchTerm</strong>).</li>
+            <li><strong>POST /kleding_items/toevoegen</strong>: Voegt een nieuw kleding item toe.</li>
+            <li><strong>PUT /kleding_items/aanpassen/:id</strong>: Past een bestaand kleding item aan.</li>
+            <li><strong>DELETE /kleding_items/verwijderen/:id</strong>: Verwijdert een kleding item.</li>
+        </ul>
+
+        <h2>Categorie</h2>
+        <ul>
+            <li><strong>GET /categorie</strong>: Haalt alle categorieën op.</li>
+            <li><strong>GET /categorie/(id)</strong>: zoekt een categorie op via het id.</li>
+            <li><strong>POST /categorie/toevoegen</strong>: Voegt een nieuwe categorie toe.</li>
+            <li><strong>PUT /categorie/aanpassen/:id</strong>: Past een bestaande categorie aan via het id.</li>
+            <li><strong>DELETE /categorie/verwijderen/:id</strong>: Verwijdert een categorie via het id.</li>
+        </ul>
+
+</body>
+</html>
