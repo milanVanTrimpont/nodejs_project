@@ -26,7 +26,7 @@ node index.js
 ### Nu ben je klaar om mijn project te bekijken
 ga naar je browser en geef dit in
 ```bash
-[node index.js](http://localhost:3000/)
+http://localhost:3000
 ```
 ![image](https://github.com/user-attachments/assets/d7468cd2-1768-4440-ae4a-0df2e4c6e80d)<br>
 
@@ -37,4 +37,4 @@ Als je nu /(waar je naartoe wilt gaan) doet ga je naar dat gedeelte.
 Ik heb enkele problemen met het tonen van mijn berichten met chatgpt omdat er foto's in voorkomen en chatgpt dit niet ondersteunt. <br>
 ![image](https://github.com/user-attachments/assets/25a25b12-7ac3-423a-8ac8-4ee68e07055c)
 
-om de kledingitems en categorie functies toe te voegen. https://chatgpt.com/share/678acd7d-db74-8007-ba55-f10b928722a5
+Om de kledingitems en categorie functies toe te voegen. https://chatgpt.com/share/678acd7d-db74-8007-ba55-f10b928722a5
