@@ -8,7 +8,7 @@
 Clone het project naar je lokale machine door het volgende commando uit te voeren:
 
 ```bash
-git clone https://github.com/milanVanTrimpont/backend_web_nodejs.git
+git clone https://github.com/milanVanTrimpont/nodejs_project.git
 ```
 
 ### 2.Installeer de afhankelijkheden:
