@@ -56,7 +56,7 @@ router.post('/toevoegen', async (req, res) => {
 
     try {
       const [result] = await pool.query(
-        'INSERT INTO categorieën (naam) VALUES (?)',
+        'INSERT INTO categorieën (naam, created_at, updated_at) VALUES (?, NOW(), NOW())',
         [naam] 
       );
       
@@ -84,7 +84,7 @@ router.post('/toevoegen', async (req, res) => {
     try {
       // Voer een UPDATE query uit
       const [result] = await pool.query(
-        'UPDATE categorieën SET naam = ? WHERE id = ?',
+        'UPDATE categorieën SET naam = ?, updated_at = NOW() WHERE id = ?',
         [naam, id] 
       );
   

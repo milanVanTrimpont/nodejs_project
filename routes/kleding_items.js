@@ -65,7 +65,7 @@ router.post('/toevoegen', async (req, res) => {
     try {
       // Voer een INSERT query uit
       const [result] = await pool.query(
-        'INSERT INTO kleding_items (titel, content) VALUES (?, ?)',
+        'INSERT INTO kleding_items (titel, content, created_at, updated_at) VALUES (?, ?, NOW(), NOW())',
         [titel, content] 
       );
       
@@ -94,7 +94,7 @@ router.post('/toevoegen', async (req, res) => {
     try {
       // Voer een UPDATE query uit
       const [result] = await pool.query(
-        'UPDATE kleding_items SET titel = ?, content = ? WHERE id = ?',
+        'UPDATE kleding_items SET titel = ?, content = ?, updated_at = NOW() WHERE id = ?',
         [titel, content, id] 
       );
   
