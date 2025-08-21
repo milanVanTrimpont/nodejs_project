@@ -33,6 +33,9 @@ http://localhost:3000
 Als je nu /(waar je naartoe wilt gaan) doet ga je naar dat gedeelte.
 ![image](https://github.com/user-attachments/assets/175edd60-9207-4bd1-96fb-8e3e5104c585)<br>
 
+In de browser kun je enkel GET gebruiken. Voor het gerbuik van POST, PUT etc raad ik aan om Postman te gebruiken.<br>
+Als voorbeeld kan je een nieuwe categorie invoegen door vanboven POST te selecteren, de url te geven en dan de gegevens onderaan in de body in te vullen.<br>
+![image](https://github.com/user-attachments/assets/688077eb-381d-433c-8460-d286f980a85c)<br>
 ## bronvermelding
 Ik heb enkele problemen met het tonen van mijn berichten met chatgpt omdat er foto's in voorkomen en chatgpt dit niet ondersteunt. <br>
 ![image](https://github.com/user-attachments/assets/25a25b12-7ac3-423a-8ac8-4ee68e07055c)
